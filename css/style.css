@@ -42,6 +42,32 @@ a {
 .main-navigation a.active, .main-navigation a:hover {
     border-bottom: 1px solid #398edb;
 }
+
+.banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 360px;
+    background: transparent url(../images/scenery.jpg) no-repeat scroll center center;
+    background-size: cover;
+    
+}
+.banner-text-container a{
+    width: 50%;
+    text-align: center;
+    color: black;
+}
+
+.banner-text-container h1, .banner-text-container p {
+    text-shadow: 4px 4px 8px darkgray;
+}
+
+.banner-text-container p {
+    font-size: 18px;
+}
 @media screen and (max-width: 768px) {
     .main-navigation a {
         display: block;
