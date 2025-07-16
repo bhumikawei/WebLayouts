@@ -29,3 +29,16 @@ a {
     border-bottom: 2px solid gray;
     background-color: white;
 }
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 0;
+
+}
+.main-navigation a {
+    margin: 0 10px;
+}
+.main-navigation a.active, .main-navigation a:hover {
+    border-bottom: 1px solid #398edb;
+}
