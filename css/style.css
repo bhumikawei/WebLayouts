@@ -42,3 +42,8 @@ a {
 .main-navigation a.active, .main-navigation a:hover {
     border-bottom: 1px solid #398edb;
 }
+@media screen and (max-width: 768px) {
+    .main-navigation a {
+        display: block;
+    }
+}
